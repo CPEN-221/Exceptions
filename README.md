@@ -57,5 +57,4 @@ In addition to the discussion around `findIndex`, notice that the constructor fo
 
 ## Video
 
-<iframe src="https://player.vimeo.com/video/461659972" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+You can find an associate video on Vimeo: https://vimeo.com/461659972/38c97d4605
