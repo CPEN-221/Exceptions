@@ -54,3 +54,8 @@ We use a few different examples to illustrate the use of Exceptions:
 Of these four variations, the version in `exceptions2` is likely the best choice but these examples are there to illustrate the syntax associated with exceptions in Java.
 
 In addition to the discussion around `findIndex`, notice that the constructor for `CourseGrades` should also throw an exception. Which exception is best suited to this constructor? Make the changes yourself.
+
+## Video
+
+<iframe src="https://player.vimeo.com/video/461659972" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
