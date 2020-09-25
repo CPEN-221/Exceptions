@@ -1,4 +1,4 @@
-package exceptions1;
+package exceptions4;
 
 /**
  * @author Sathish Gopalakrishnan
@@ -42,16 +42,16 @@ public class CourseGrades {
     /**
      * Find the index of a student in the class list using the student number.
      * @param studentNumber is the student number of the student to find.
-     * @return the index in the class list that corresponds to the given student number, and
-     *      -1 if the student number is not in the list.
+     * @return the index in the class list that corresponds to the given student number.
+     * @throws NotFoundException if the student number does not occur in the class list.
      */
-    private int findIndex(int studentNumber) {
+    private int findIndex(int studentNumber) throws NotFoundException {
         for (int i = 0; i < classList.length; i++) {
             if (classList[i] == studentNumber) {
                 return i;
             }
         }
-        return -1;
+        throw new NotFoundException("student number not in list");
     }
 
     /**
@@ -59,8 +59,9 @@ public class CourseGrades {
      *
      * @param studentNumber is the student number for the student whose grade has been requested
      * @return the grade of the student with the provided student number
+     * @throws NotFoundException if the student number does not match a student in the course
      */
-    public int getGrade(int studentNumber) {
+    public int getGrade(int studentNumber) throws NotFoundException {
         int index;
         index = findIndex(studentNumber);
         return classGrades[index];

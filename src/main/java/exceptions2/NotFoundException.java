@@ -1,4 +1,4 @@
-package exceptions1;
+package exceptions2;
 
 /**
  * @author Sathish Gopalakrishnan

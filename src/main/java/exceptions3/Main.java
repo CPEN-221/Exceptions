@@ -1,4 +1,4 @@
-package exceptions1;
+package exceptions3;
 
 /**
  * @author Sathish Gopalakrishnan
@@ -11,7 +11,12 @@ public class Main {
         System.out.println(cpen221);
 
         int studentNumber = 100904321;
-        System.out.printf("Grade for student number %8d is %3d.\n", studentNumber,
-                cpen221.getGrade(studentNumber));
+        try {
+            System.out.printf("Grade for student number %8d is %3d.\n", studentNumber,
+                    cpen221.getGrade(studentNumber));
+        }
+        catch (NotFoundException nfe) {
+            System.out.println("Invalid student number");
+        }
     }
 }
