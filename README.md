@@ -57,4 +57,4 @@ In addition to the discussion around `findIndex`, notice that the constructor fo
 
 ## Video
 
-You can find an associate video on Vimeo: https://vimeo.com/461659972/38c97d4605
+You can find an associated video on Vimeo: https://vimeo.com/461659972/38c97d4605
